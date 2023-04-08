@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+      iTunes Search
+    </h1>
+    <input
+      placeholder="Search..."
+      type="text"
+    />
+    <button>
+      Show Favorites
+    </button>
+    <div>
+      <h2>
+        Search Results
+      </h2>
+      <ul />
+    </div>
+  </div>
+</DocumentFragment>
+`;
