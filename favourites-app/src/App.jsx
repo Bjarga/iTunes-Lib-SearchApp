@@ -12,7 +12,7 @@ function App() {
   // Defining a function to handle search requests using the iTunes Search API
   const handleSearch = async (searchTerm) => {
     const response = await fetch(
-      `http://tasteful-stone-production.up.railway.app/search?term=${searchTerm}`
+      `https://tasteful-stone-production.up.railway.app/search?term=${searchTerm}`
     );
     const data = await response.json();
     setSearchResults(data.results);
