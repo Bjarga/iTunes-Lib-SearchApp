@@ -1,3 +1,4 @@
+# iTunes-Lib-SearchApp
 # iTunes Search App
 
 This is a full-stack web application that interfaces with the iTunes Search API, allowing users to search for content within the iTunes Store and Apple Books Store. Users can also create a list of their favorite items.
@@ -29,3 +30,4 @@ To ensure the security of this app, the following measures have been taken:
 1. The backend server acts as a proxy for requests to the iTunes Search API, so the client-side app does not directly interact with the API. This reduces the risk of exposing sensitive information or API keys.
 2. The backend server validates user input before sending requests to the iTunes Search API, preventing potential issues related to malicious input.
 3. No API keys are required for the iTunes Search API, so there is no risk of exposing sensitive API keys in this project.
+
